@@ -10072,6 +10072,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bicycle__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12548,6 +12553,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.copado__Work_Manager_Panels__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19332,6 +19342,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Bicycle__c-Bicycle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -19503,6 +19516,9 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Vehicle__c-Vehicle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>WorkAccess-Access Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -19619,6 +19635,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AuthorizationFormText</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Bicycle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -20132,6 +20157,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>StreamingChannel</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
